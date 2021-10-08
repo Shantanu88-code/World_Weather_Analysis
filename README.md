@@ -9,12 +9,12 @@ In this analysis, we generated 2000 random latitudes and longitudes. Then we ret
 
 In this analysis, we generated 2000 random latitudes and longitudes and retrieved all cities nearby. Then using Openweathermap and weather API key we found the following for each city: 
 
-# Latitude and longitude
-# Maximum temperature
-# Percent humidity
-# Percent cloudiness
-# Wind speed
-# Weather description (for example, clouds, fog, light rain, clear sky)
+Latitude and longitude
+Maximum temperature
+Percent humidity
+Percent cloudiness
+Wind speed
+Weather description (for example, clouds, fog, light rain, clear sky)
 
 
 <img width="571" alt="DataFrame" src="https://user-images.githubusercontent.com/86980240/136595988-a1883f6a-e49a-4488-bd6f-19f8fa2cdb16.png">
@@ -44,7 +44,12 @@ Using "info_box_template", we added City, Country, Current Weather and Max Temp 
 
 In this analysis, we retrieved above WeatherPy Vacation CSV file that contains our preferred cities and hotels in those cities. From that dataframe, we selected 4 cities in a particular country with start to end points and a few stopovers in between, retrieved their lat and long details. Using gmaps, we displayed those 4 cities and their connecting routes as we set "Driving", "Bicycling" or "Walking" as travel modes. We created a dataframe of those 4 cities. 
 
-
+<img width="536" alt="4_cities" src="https://user-images.githubusercontent.com/86980240/136597983-b0f2b593-08d3-438e-b262-a434178fa3d4.png">
 
 
 Again, using "info_box_template", we added City, Country, Current Weather and Max Temp for cities. With Gmaps extension, we displayed map with adding heat layers and markers that shows template contents.
+
+<img width="727" alt="WeatherPy_Travel_Map" src="https://user-images.githubusercontent.com/86980240/136598030-f5fb2e2b-6d37-4e60-9421-59444eb9bb4d.png">
+
+<img width="376" alt="WeatherPy_Travel_Map_Markers" src="https://user-images.githubusercontent.com/86980240/136598053-a173023d-dfee-4b02-969c-54f59706b073.png">
+
