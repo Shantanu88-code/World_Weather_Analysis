@@ -9,11 +9,11 @@ In this analysis, we generated 2000 random latitudes and longitudes. Then we ret
 
 In this analysis, we generated 2000 random latitudes and longitudes and retrieved all cities nearby. Then using Openweathermap and weather API key we found the following for each city: 
 
-Latitude and longitude
-Maximum temperature
-Percent humidity
-Percent cloudiness
-Wind speed
+Latitude and longitude,
+Maximum temperature,
+Percent humidity,
+Percent cloudiness,
+Wind speed and 
 Weather description (for example, clouds, fog, light rain, clear sky)
 
 
