@@ -46,8 +46,6 @@ Using "info_box_template", we added City, Country, Current Weather and Max Temp 
 
 In this analysis, we retrieved above WeatherPy Vacation CSV file that contains our preferred cities and hotels in those cities. From that dataframe, we selected 4 cities in a particular country with start to end points and a few stopovers in between, retrieved their lat and long details. Using gmaps, we displayed those 4 cities and their connecting routes as we set "Driving", "Bicycling" or "Walking" as travel modes along with weather details, temparatures, hotels etc. We created a dataframe of those 4 cities. 
 
-<img width="589" alt="Vacation_df" src="https://user-images.githubusercontent.com/86980240/136667110-14f85bf0-14a4-4d87-b5dd-53da10573bd1.png">
-
 <img width="624" alt="Vacation_itenary" src="https://user-images.githubusercontent.com/86980240/136667119-fb112183-c414-439e-aa1e-557c24b9a7a5.png">
 
 
